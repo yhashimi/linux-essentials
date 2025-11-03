@@ -1,1 +1,97 @@
+# Linux Essentials – Important Commands 
 
+# -------------------------------
+# Navigation
+# -------------------------------
+pwd            # Show current directory
+ls             # List files and directories
+ls -l          # List files with details
+ls -a          # List all files including hidden
+cd [dir]       # Change directory
+cd ~           # Go to home directory
+cd ..          # Move up one directory
+
+# -------------------------------
+# File and Directory Management
+# -------------------------------
+mkdir [dir]         # Create a new directory
+rmdir [dir]         # Remove an empty directory
+touch [file]        # Create a new empty file
+cp [source] [dest]  # Copy files or directories
+mv [source] [dest]  # Move or rename files
+rm [file]           # Remove a file
+rm -r [dir]         # Remove directory recursively
+cat [file]          # Show file contents
+more [file]         # View file contents page by page
+less [file]         # View file contents interactively
+
+# -------------------------------
+# File Permissions
+# -------------------------------
+chmod 755 [file]    # Change file permissions
+chown user:group [file] # Change file owner and group
+ls -l               # Show permissions
+
+# -------------------------------
+# Searching & Finding
+# -------------------------------
+find [path] -name [file]  # Find files by name
+grep "text" [file]        # Search for text in a file
+locate [file]             # Quickly locate a file (requires updatedb)
+
+# -------------------------------
+# Users & Groups
+# -------------------------------
+whoami           # Show current user
+id               # Show user ID and group ID
+adduser [user]   # Add a new user
+passwd [user]    # Change user password
+groups [user]    # Show groups of a user
+
+# -------------------------------
+# System Info & Monitoring
+# -------------------------------
+uname -a         # Show system information
+top              # Show running processes
+ps aux           # Show detailed process list
+df -h            # Show disk usage
+du -h [dir]      # Show size of files/directories
+free -h          # Show memory usage
+uptime           # Show system uptime
+
+# -------------------------------
+# Package Management (Debian/Ubuntu)
+# -------------------------------
+sudo apt update      # Update package lists
+sudo apt upgrade     # Upgrade installed packages
+sudo apt install [package]  # Install a package
+sudo apt remove [package]   # Remove a package
+
+# -------------------------------
+# Networking
+# -------------------------------
+ifconfig        # Show network interfaces (deprecated, use ip)
+ip addr show    # Show IP addresses
+ping [host]     # Test connectivity to a host
+netstat -tuln   # Show listening ports
+
+# -------------------------------
+# Shell & Scripting
+# -------------------------------
+echo "text"     # Print text
+nano [file]     # Edit file in nano editor
+vi [file]       # Edit file in vi editor
+bash [script]   # Run a shell script
+
+# -------------------------------
+# Other Useful Commands
+# -------------------------------
+history         # Show command history
+clear           # Clear terminal screen
+date            # Show current date and time
+cal             # Show calendar
+man [command]   # Show manual/help page for a command
+
+# -------------------------------
+# End of Linux Essentials Commands
+# -------------------------------
