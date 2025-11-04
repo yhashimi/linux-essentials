@@ -1,3 +1,15 @@
+
+#File: hostlist.txt
+# Description:
+#   This file contains a list of IP addresses that should be checked by
+#   the script 'check_hosts_with_IP.sh'.
+#
+#   Add one host per line.
+#   Example entries are provided below.
+
+
+
+
 8.8.8.8
 1.1.1.1
 192.168.0.10
